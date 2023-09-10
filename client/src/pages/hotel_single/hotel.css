@@ -1,0 +1,159 @@
+.hotel-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.hotel-container__wrapper{
+    position: relative;
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hotel-container__button{
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    background-color: #0071c2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hotel-container__title{
+    font-size: 24px;
+}
+
+
+
+.hotel-container__address{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hotel-container__distance{
+    color: #0071c2;
+    font-weight: 500;
+}
+
+.hotel-container__price{
+    color: #008009;
+}
+
+.hotel-container__imgs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hotel-container__imgs-wrapper{
+    width: 33%;
+}
+
+.hotel-container__img{
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.hotel-container__details{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.hotel-container__details-text{
+    flex: 3;
+}
+
+.hotel-container__details-title{
+font-size: 24px;
+}
+
+.hotel-container__desc{
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.hotel-container__details-price{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    background-color: #ebf3ff;
+}
+
+.hotel-container__details-price>h1{
+    font-size: 18px;
+    color: #555;
+}
+
+.hotel-container__details-price>span{
+    font-size: 14px;
+}
+
+.hotel-container__details-price>h2{
+    font-weight: 300;
+}
+
+.hotel-container__details-price>button{
+    background-color: #0071c2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hotel-slider{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.427);
+    z-index: 999;
+}
+
+.slider-wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-img{
+    width: 80%;
+    height: 80vh;
+}
+
+.close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    color: lightgray;
+    cursor: pointer;
+}
+
+.arrow{
+    margin: 20px;
+    font-size: 40px;
+    color: lightgray;
+    cursor: pointer;
+}

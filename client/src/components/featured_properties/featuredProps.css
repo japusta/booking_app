@@ -1,0 +1,45 @@
+.featured-properties{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.featured-properties__item{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+}
+
+.featured-properties__img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.featured-properties__name{
+    font-weight: bold;
+}
+
+.featured-properties__city{
+    font-weight: 300;
+}
+
+.featured-properties__price{
+    font-weight: 500;
+}
+
+.featured-properties__rating>button{
+    margin-right: 10px;
+    padding: 3px;
+    border: none;
+    outline: none;
+    background-color: #003580;
+    color: white;
+    font-weight: bold;
+}
+
+.featured-properties__rating>span{
+    font-size: 14px;
+}
